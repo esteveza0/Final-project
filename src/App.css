@@ -1,0 +1,134 @@
+main {
+}
+nav, a {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+nav ul li {
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  color: #fa5454;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.fullPortrait {
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.role {
+  font-weight: bold;
+}
+h2 {
+  color: #fa5454;
+  font-weight: bold;
+}
+.display-name {
+  font-size: 18px;
+  margin-top: 5px;
+}
+p {
+  margin-top: 5px;
+  color: #fa5454;
+  font-size: 20px;
+}
+.description {
+  font-size: 14px;
+  margin-top: 5px;
+}
+main {
+;
+}
+
+body {
+  margin: 0;
+  background-color: #0e1824;
+
+
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+h1 {
+  text-align: center;
+  border: 2px solid #fa5454;
+}
+
+h3 {
+  text-align: center;
+  border: 2px solid #fa5454;
+  color: #fa5454;
+}
+
+.ability {
+  color: #fa5454;
+}
+
+.player-id{
+  width: 300px;
+  background-color: #fa5454;
+  border: 2px solid #fa5454;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px #fa5454;
+  transition: transform 1s;
+
+}
+li {
+  list-style-type: none;
+}
+
+.description {
+  left: 50%;
+  width:100px;
+  bottom: 80%;
+  position: relative;
+}
+
+.display-name, h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fa5454;
+}
+.title{
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fa5454;
+  background: #ffd1d1;
+}
+.Search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin: 0 auto;
+  display: block;
+  border: 2px solid #fa5454;
+}
+.smallArt {
+    padding-right: 4px;
+}
